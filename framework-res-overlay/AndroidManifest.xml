@@ -3,8 +3,9 @@
     android:versionCode="1"
     android:versionName="1.0" >
 <!--
-Targeting the right packageName of the 'target.apk' here!    
-So the matching resource id can be set in ralations.
+Targeting the right packageName of the 'target.apk' here!  
+We can find the real packageName in the AndroidManifest.xml of original target.apk!
+So the matching resources id can be set in ralations.
 -->
 <overlay android:targetPackage="android" android:priority="1"/>
   
