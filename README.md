@@ -24,7 +24,9 @@ The AndroidManifest.xml will have to have a xml-key, that provides the packagena
 
 code of AndroidManifest.xml will look like this(!):
 
-<overlay android:targetPackage="android" android:priority="1"/>
+overlay android:targetPackage="android" android:priority="1"
+
+See the AndroidManifest.xml of this projekt...
 
 
 (The android_packagename of our smaple target '/system/framework/framework-res.apk' is 'android' on Lollipop-OS)
