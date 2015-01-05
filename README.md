@@ -13,12 +13,12 @@ In example:
 
 the systems standard Navigation Bar Height ist defined in original target '/system/framework-res.apk/res/values/dimens.xml'
 
-To change the Navigation Bar Height-values at runtime (without having a complete ne 'framework-res.apk', we can compile an
-overlay.apk, that holds only the xml elements we want to change at runtime (after reboot of corse).
+To change the Navigation Bar Height-values at runtime (without having a completely new 'framework-res.apk', we can compile an
+overlay.apk, that holds only the xml elements we, want to have changed at runtime (after reboot of corse).
 
-The new overlay can named i.e. 'framework-res-overlay.apk'.
-This overla.apk will be compiled without any code/classses!
-It will copiled only with resources!
+The new overlay can be named i.e. 'framework-res-overlay.apk'.
+This overlay.apk will be (has to be!) compiled without any code/classses!
+It will copiled ONLY with resources!
 
 The AndroidManifest.xml will have to have a xml-key, that provides the packagename of the target.apk!
 
