@@ -31,7 +31,7 @@ code of AndroidManifest.xml will look like this(!):
 <overlay android:targetPackage="android" android:priority="1"/>
   
 </manifest>
->/?xml>
+</?xml>
 
 
 (The android_packagename of our smaple target '/system/framework/framework-res.apk' is 'android' on Lollipop-OS)
