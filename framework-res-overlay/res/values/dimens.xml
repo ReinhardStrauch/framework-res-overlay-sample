@@ -3,6 +3,7 @@
     <!--
     Here we have to insert the key-value-pairs, which should be overriden at runtime!
     Those have to match the original key-valu-pairs of the rriginal target.apk resources!
+    So the asset manager can build the match-id-table at runtime (after reboot)...
     -->
     <dimen name="navigation_bar_height">96.0dip</dimen>
     <dimen name="navigation_bar_height_landscape">96.0dip</dimen>
