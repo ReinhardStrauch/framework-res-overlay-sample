@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    
+    <!--
+    Here we have to insert the key-value-pairs, which should be overriden at runtime!
+    Those have to match the original key-valu-pairs of the rriginal target.apk resources!
+    -->
     <dimen name="navigation_bar_height">96.0dip</dimen>
     <dimen name="navigation_bar_height_landscape">96.0dip</dimen>
 </resources>
