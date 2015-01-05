@@ -23,14 +23,14 @@ It will copiled only with resources!
 The AndroidManifest.xml will have to have a xml-key, that provides the packagename of the target.apk!
 
 code of AndroidManifest.xml will look like this(!):
-<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+"<manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.android.frameworkres.overlay"
     android:versionCode="1"
     android:versionName="1.0" >
 <overlay android:targetPackage="android" android:priority="1"/>
   
-</manifest>
+</manifest>"
 
 
 (The android_packagename of our smaple target '/system/framework/framework-res.apk' is 'android' on Lollipop-OS)
