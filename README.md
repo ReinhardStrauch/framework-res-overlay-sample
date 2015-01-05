@@ -25,13 +25,12 @@ The AndroidManifest.xml will have to have a xml-key, that provides the packagena
 code of AndroidManifest.xml will look like this(!):
 
 <div>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+"<manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.android.frameworkres.overlay"
     android:versionCode="1"
     android:versionName="1.0" >
 <overlay android:targetPackage="android" android:priority="1"/>
-  
-</manifest>
+</manifest>"
 </div>
 
 
